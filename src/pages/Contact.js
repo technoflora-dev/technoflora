@@ -82,7 +82,7 @@ const Contact = () => {
         submitting: false,
         submitted: false,
         error: true,
-        message: 'Oops! Something went wrong. Please try again or email us directly at technoflorallp@gmail.com'
+        message: 'Oops! Something went wrong. Please try again or email us directly at support@technoflora.in'
       });
     }
   };
@@ -111,8 +111,8 @@ const Contact = () => {
                   <div className="contact-detail-icon">📧</div>
                   <div className="contact-detail-content">
                     <h4>Email</h4>
-                    <a href="mailto:technoflorallp@gmail.com" className="contact-link">
-                      technoflorallp@gmail.com
+                    <a href="mailto:support@technoflora.in" className="contact-link">
+                      support@technoflora.in
                     </a>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const Contact = () => {
                   <div className="contact-detail-icon">📍</div>
                   <div className="contact-detail-content">
                     <h4>Office</h4>
-                    <p>House no. 8 Vasundhra homes,<br/>Ayush vihar colony phase 2,<br/>Jankipuram Extension Lucknow,<br/>Uttar Pradesh (226021)</p>
+                    <p>8 Vasundhra homes,<br/>Ayush vihar colony phase 2,<br/>Jankipuram Extension Lucknow,<br/>Uttar Pradesh (226021)</p>
                   </div>
                 </div>
 

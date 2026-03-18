@@ -70,7 +70,7 @@ const HomeContactForm = () => {
         submitting: false,
         submitted: false,
         error: true,
-        message: 'Oops! Something went wrong. Please try again or email us at technoflorallp@gmail.com'
+        message: 'Oops! Something went wrong. Please try again or email us at support@technoflora.in'
       });
     }
   };

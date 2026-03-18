@@ -249,6 +249,37 @@ const Home = () => {
 
       <section className="section section-alt scroll-animate">
         <div className="container">
+          <h2 className="section-title">How We Work</h2>
+          <p className="section-description">
+            A transparent, collaborative process designed to deliver results on time and within budget
+          </p>
+          <div className="process-grid">
+            <div className="process-step scroll-animate-item" style={{ animationDelay: '0.1s' }}>
+              <div className="process-number">1</div>
+              <h3>Discovery</h3>
+              <p>We listen deeply to understand your business goals, target audience, and project requirements in full detail.</p>
+            </div>
+            <div className="process-step scroll-animate-item" style={{ animationDelay: '0.2s' }}>
+              <div className="process-number">2</div>
+              <h3>Strategy</h3>
+              <p>Our experts craft a detailed roadmap with timelines, technology choices, and milestones tailored to your vision.</p>
+            </div>
+            <div className="process-step scroll-animate-item" style={{ animationDelay: '0.3s' }}>
+              <div className="process-number">3</div>
+              <h3>Build & Test</h3>
+              <p>We develop your solution in agile sprints with regular demos, feedback loops, and rigorous quality testing.</p>
+            </div>
+            <div className="process-step scroll-animate-item" style={{ animationDelay: '0.4s' }}>
+              <div className="process-number">4</div>
+              <h3>Launch & Grow</h3>
+              <p>We deploy your product and provide continuous support to ensure ongoing growth and optimization.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-alt scroll-animate">
+        <div className="container">
           <h2 className="section-title">Start Your Project Today</h2>
           <p className="section-description">
             Drop us a message and let's discuss how we can help bring your vision to life

@@ -85,7 +85,7 @@ const Terms = () => {
               If you have any questions about these Terms & Conditions, please contact us at:
             </p>
             <p>
-              Email: technoflorallp@gmail.com<br/>
+              Email: support@technoflora.in<br/>
               Phone: +91 7905987092
             </p>
           </div>

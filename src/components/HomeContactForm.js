@@ -149,7 +149,7 @@ const HomeContactForm = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="+91 XXXXX XXXXX"
+                  placeholder="+91 98765 43210"
                 />
               </div>
             </div>

@@ -89,7 +89,8 @@ const Footer = () => {
               <span className="footer-contact-label">Visit Us</span>
               <p>
                 Ayush vihar colony phase 2,
-                Jankipuram Extension Lucknow, UP - 226021
+                Jankipuram Extension, Lucknow,
+                Uttar Pradesh – 226021
               </p>
             </div>
           </div>
@@ -105,7 +106,7 @@ const Footer = () => {
 
       {/* Footer bottom */}
       <div className="footer-bottom">
-        <p>&copy; 2025 Technoflora LLP. All rights reserved.</p>
+        <p>&copy; 2025–2026 Technoflora LLP. All rights reserved.</p>
         <button className="back-to-top" onClick={scrollToTop} aria-label="Back to top">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="18 15 12 9 6 15"/>

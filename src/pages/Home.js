@@ -188,14 +188,11 @@ const Home = () => {
 
       <section className="section scroll-animate">
         <div className="container">
-          <h2 className="section-title">About Technoflora</h2>
+          <h2 className="section-title">Technoflora in Numbers</h2>
+          <p className="section-description">
+            A growing team delivering real results for businesses across India
+          </p>
           <div className="about-summary">
-            <p className="lead-text">
-              Technoflora is a technology solutions provider founded with a vision to bridge the gap 
-              between innovative technology and practical business applications. We bring together a 
-              talented pool of experienced professionals ready to help businesses thrive in the digital age.
-            </p>
-            
             <div className="stats-grid" style={{ marginTop: '2rem', marginBottom: '2rem' }}>
               <div className="stat-card scroll-animate-item" style={{ animationDelay: '0.1s' }}>
                 <h3 className="stat-number counter" data-target="10">10+</h3>
@@ -215,31 +212,6 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="mission-box scroll-animate-item">
-              <h3>Our Mission</h3>
-              <p>
-                To empower businesses with innovative technology solutions that drive growth, efficiency, 
-                and competitive advantage in an ever-evolving digital landscape.
-              </p>
-            </div>
-            <div className="values-summary">
-              <div className="value-item scroll-animate-item" style={{ animationDelay: '0.1s' }}>
-                <span className="value-icon">💡</span>
-                <span>Innovation</span>
-              </div>
-              <div className="value-item scroll-animate-item" style={{ animationDelay: '0.2s' }}>
-                <span className="value-icon">🤝</span>
-                <span>Integrity</span>
-              </div>
-              <div className="value-item scroll-animate-item" style={{ animationDelay: '0.3s' }}>
-                <span className="value-icon">⭐</span>
-                <span>Excellence</span>
-              </div>
-              <div className="value-item scroll-animate-item" style={{ animationDelay: '0.4s' }}>
-                <span className="value-icon">👥</span>
-                <span>Collaboration</span>
-              </div>
-            </div>
             <Link to="/about" className="btn btn-secondary-outline">
               Learn More About Us →
             </Link>
@@ -278,7 +250,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="section section-alt scroll-animate">
+      <section className="section scroll-animate">
         <div className="container">
           <h2 className="section-title">Start Your Project Today</h2>
           <p className="section-description">

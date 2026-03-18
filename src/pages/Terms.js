@@ -76,8 +76,8 @@ const Terms = () => {
 
             <h2>8. Governing Law</h2>
             <p>
-              These terms and conditions are governed by and construed in accordance with the laws and 
-              you irrevocably submit to the exclusive jurisdiction of the courts in that location.
+              These terms and conditions are governed by and construed in accordance with the laws of
+              India. You irrevocably submit to the exclusive jurisdiction of the courts in Lucknow, Uttar Pradesh.
             </p>
 
             <h2>9. Contact Information</h2>

@@ -131,7 +131,7 @@ const Contact = () => {
                   <div className="contact-detail-icon">📍</div>
                   <div className="contact-detail-content">
                     <h4>Office</h4>
-                    <p>Ayush vihar colony phase 2,<br/>Jankipuram Extension Lucknow,<br/>Uttar Pradesh (226021)</p>
+                    <p>Ayush vihar colony phase 2,<br/>Jankipuram Extension, Lucknow,<br/>Uttar Pradesh – 226021</p>
                   </div>
                 </div>
 
@@ -230,7 +230,7 @@ const Contact = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+91 7905987092"
+                      placeholder="+91 98765 43210"
                     />
                   </div>
                 </div>

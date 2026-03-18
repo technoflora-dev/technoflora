@@ -25,11 +25,16 @@ const Navbar = () => {
         </Link>
         
         <div className="nav-right">
-          <div className="menu-icon" onClick={toggleMenu}>
+          <button 
+            className="menu-icon" 
+            onClick={toggleMenu}
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
+          >
             <span className={isOpen ? 'bar bar1 active' : 'bar bar1'}></span>
             <span className={isOpen ? 'bar bar2 active' : 'bar bar2'}></span>
             <span className={isOpen ? 'bar bar3 active' : 'bar bar3'}></span>
-          </div>
+          </button>
 
           <ul className={isOpen ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">

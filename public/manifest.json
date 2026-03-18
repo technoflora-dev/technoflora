@@ -1,0 +1,21 @@
+{
+  "short_name": "Technoflora",
+  "name": "Technoflora - Innovative Digital Solutions",
+  "description": "Digital solutions provider offering web development, app development, UI/UX design, and more",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#10b981",
+  "background_color": "#0a0e27"
+}

@@ -11,7 +11,7 @@ const Carousel = () => {
       title: "Transform Your Digital Presence",
       description: "Custom solutions tailored to accelerate your business growth in the digital world",
       badge: "🚀 Innovative Solutions",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1920&q=85",
+      image: "/images/slide-analytics.jpg",
       overlay: "linear-gradient(90deg, rgba(2, 20, 15, 0.88) 0%, rgba(2, 20, 15, 0.55) 50%, rgba(0,0,0,0.15) 100%)",
       ctaText: "Start Your Project",
       ctaLink: "/contact"
@@ -20,7 +20,7 @@ const Carousel = () => {
       title: "Innovation That Drives Results",
       description: "Cutting-edge technology delivering measurable business outcomes for lasting success",
       badge: "💡 Latest Technology",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=85",
+      image: "/images/slide-technology.jpg",
       overlay: "linear-gradient(90deg, rgba(3, 12, 35, 0.90) 0%, rgba(3, 12, 35, 0.55) 50%, rgba(0,0,0,0.12) 100%)",
       ctaText: "Explore Services",
       ctaLink: "/services"
@@ -29,7 +29,7 @@ const Carousel = () => {
       title: "Expert Team, Exceptional Solutions",
       description: "20+ skilled specialists bringing your vision to life with passion and precision",
       badge: "👥 Experienced Team",
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1920&q=85",
+      image: "/images/slide-team.jpg",
       overlay: "linear-gradient(90deg, rgba(15, 5, 25, 0.88) 0%, rgba(15, 5, 25, 0.50) 50%, rgba(0,0,0,0.10) 100%)",
       ctaText: "Meet the Team",
       ctaLink: "/about"
@@ -38,7 +38,7 @@ const Carousel = () => {
       title: "24/7 Support & Reliability",
       description: "Your success is our commitment — always available, always reliable, always exceeding expectations",
       badge: "⚡ Always Available",
-      image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1920&q=85",
+      image: "/images/slide-developer.jpg",
       overlay: "linear-gradient(90deg, rgba(2, 20, 15, 0.88) 0%, rgba(2, 20, 15, 0.55) 50%, rgba(0,0,0,0.12) 100%)",
       ctaText: "Contact Us",
       ctaLink: "/contact"
@@ -47,7 +47,7 @@ const Carousel = () => {
       title: "Scalable Cloud Solutions",
       description: "Migrate, build, and scale with secure cloud infrastructure designed to grow with your business",
       badge: "☁️ Cloud & DevOps",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=85",
+      image: "/images/slide-cloud.jpg",
       overlay: "linear-gradient(90deg, rgba(5, 10, 30, 0.88) 0%, rgba(5, 10, 30, 0.50) 50%, rgba(0,0,0,0.10) 100%)",
       ctaText: "Learn More",
       ctaLink: "/services"
@@ -56,7 +56,7 @@ const Carousel = () => {
       title: "Beautiful Designs That Convert",
       description: "UI/UX crafted to delight your users and turn visitors into loyal customers",
       badge: "🎨 Design & Branding",
-      image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1920&q=85",
+      image: "/images/slide-design.jpg",
       overlay: "linear-gradient(90deg, rgba(20, 5, 15, 0.88) 0%, rgba(20, 5, 15, 0.50) 50%, rgba(0,0,0,0.10) 100%)",
       ctaText: "See Our Work",
       ctaLink: "/services"

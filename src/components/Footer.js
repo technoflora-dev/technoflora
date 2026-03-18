@@ -88,7 +88,7 @@ const Footer = () => {
             <div className="footer-contact-details">
               <span className="footer-contact-label">Visit Us</span>
               <p>
-                8 Vasundhra homes, Ayush vihar colony phase 2,
+                Ayush vihar colony phase 2,
                 Jankipuram Extension Lucknow, UP - 226021
               </p>
             </div>

@@ -131,7 +131,7 @@ const Contact = () => {
                   <div className="contact-detail-icon">📍</div>
                   <div className="contact-detail-content">
                     <h4>Office</h4>
-                    <p>8 Vasundhra homes,<br/>Ayush vihar colony phase 2,<br/>Jankipuram Extension Lucknow,<br/>Uttar Pradesh (226021)</p>
+                    <p>Ayush vihar colony phase 2,<br/>Jankipuram Extension Lucknow,<br/>Uttar Pradesh (226021)</p>
                   </div>
                 </div>
 
@@ -192,7 +192,7 @@ const Contact = () => {
                       value={formData.firstName}
                       onChange={handleChange}
                       required
-                      placeholder="John"
+                      placeholder="Rahul"
                     />
                   </div>
                   <div className="form-group">
@@ -204,7 +204,7 @@ const Contact = () => {
                       value={formData.lastName}
                       onChange={handleChange}
                       required
-                      placeholder="Doe"
+                      placeholder="Sharma"
                     />
                   </div>
                 </div>
@@ -219,7 +219,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      placeholder="john@company.com"
+                      placeholder="rahul@company.com"
                     />
                   </div>
                   <div className="form-group">

@@ -124,7 +124,7 @@ const HomeContactForm = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                placeholder="John Doe"
+                placeholder="Rahul Sharma"
               />
             </div>
 
@@ -138,7 +138,7 @@ const HomeContactForm = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="john@company.com"
+                  placeholder="rahul@company.com"
                 />
               </div>
               <div className="form-group">

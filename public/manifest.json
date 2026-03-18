@@ -9,9 +9,14 @@
       "sizes": "any"
     },
     {
-      "src": "logo.png",
+      "src": "favicon.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "64x64"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
     }
   ],
   "start_url": ".",

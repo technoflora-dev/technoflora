@@ -283,7 +283,7 @@ body {
 .hero {
   background: linear-gradient(135deg, var(--hero-gradient-start) 0%, var(--hero-gradient-mid) 50%, var(--hero-gradient-end) 100%);
   color: white;
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 6rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -893,7 +893,7 @@ body {
   padding: 0.875rem 1rem;
   border: 2px solid var(--border-color);
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-family: inherit;
   transition: var(--transition);
   background: var(--background);
@@ -1648,6 +1648,14 @@ body {
     font-size: 1rem;
   }
 
+  .hero {
+    padding: 4rem 1.5rem 4.5rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
   .section-title {
     font-size: 1.6rem;
   }
@@ -1749,23 +1757,64 @@ body {
 
 @media screen and (max-width: 480px) {
   .hero {
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 3.5rem;
   }
 
   .hero-title {
     font-size: 1.6rem;
   }
 
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
   .section {
     padding: 3rem 1rem;
   }
 
+  .section-title {
+    font-size: 1.3rem;
+  }
+
   .stat-number {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .stats-grid {
     grid-template-columns: 1fr;
+  }
+
+  .nav-logo-svg {
+    height: 32px;
+    width: 32px;
+  }
+
+  .nav-logo-text {
+    font-size: 1.2rem;
+  }
+
+  .contact-item-large {
+    min-width: auto;
+    max-width: 100%;
+    padding: 2rem 1.5rem;
+  }
+
+  .footer-shape-1 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .footer-shape-2 {
+    width: 180px;
+    height: 180px;
+  }
+
+  .footer-cta-inner {
+    padding: 1.5rem;
+  }
+
+  .footer-cta-text h3 {
+    font-size: 1.2rem;
   }
 }
 
@@ -2291,6 +2340,7 @@ body {
   position: relative;
   width: 100%;
   height: 650px;
+  min-height: 450px;
   overflow: hidden;
   background: #000;
 }
@@ -2353,6 +2403,7 @@ body {
   z-index: 1;
   margin-left: 5%;
   opacity: 0;
+  box-sizing: border-box;
 }
 
 .carousel-slide.active .carousel-content {
@@ -2504,6 +2555,12 @@ body {
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
   max-width: 520px;
   color: rgba(255, 255, 255, 0.85);
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-description {
+    max-width: 100%;
+  }
 }
 
 .carousel-btn {
@@ -3236,11 +3293,16 @@ body {
 /* ===== Responsive Adjustments for New Components ===== */
 @media screen and (max-width: 768px) {
   .carousel {
-    height: 500px;
+    height: auto;
+    min-height: 480px;
+  }
+
+  .carousel-slide {
+    min-height: 480px;
   }
 
   .carousel-content {
-    padding: 2rem 2rem;
+    padding: 2rem 1.75rem;
     margin-left: 3%;
     max-width: 90%;
   }
@@ -3260,15 +3322,21 @@ body {
   }
 
   .carousel-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    line-height: 1.2;
   }
 
   .carousel-description {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    line-height: 1.5;
   }
 
   .carousel-btn {
     width: 40px;
+    height: 40px;
+  }
+
+  .hero::after {
     height: 40px;
   }
 
@@ -3277,21 +3345,8 @@ body {
     gap: 1.5rem;
   }
 
-  .carousel-title {
-    font-size: 2rem;
-  }
-
-  .carousel-description {
-    font-size: 0.95rem;
-  }
-
   .process-step::after {
     display: none;
-  }
-
-  .carousel-btn {
-    font-size: 2rem;
-    padding: 0.5rem 1rem;
   }
 
   .carousel-btn-prev {
@@ -3391,13 +3446,18 @@ body {
 
 @media screen and (max-width: 480px) {
   .carousel {
-    height: 440px;
+    height: auto;
+    min-height: 420px;
+  }
+
+  .carousel-slide {
+    min-height: 420px;
   }
 
   .carousel-content {
-    padding: 1.5rem 1.25rem;
+    padding: 1.25rem 1rem;
     margin-left: 2%;
-    max-width: 95%;
+    max-width: 96%;
   }
 
   .carousel-badge {
@@ -3405,9 +3465,19 @@ body {
     padding: 0.3rem 0.8rem;
   }
 
-  .carousel-cta-btn {
-    padding: 0.65rem 1.4rem;
+  .carousel-title {
+    font-size: 1.4rem;
+    line-height: 1.25;
+  }
+
+  .carousel-description {
     font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
+  .carousel-cta-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
   }
 
   .carousel-bottom-bar {
@@ -3422,8 +3492,8 @@ body {
   }
 
   .carousel-btn {
-    width: 36px;
-    height: 36px;
+    width: 34px;
+    height: 34px;
   }
 
   .carousel-btn svg {
@@ -3431,17 +3501,20 @@ body {
     height: 16px;
   }
 
+  .hero::after {
+    height: 25px;
+  }
+
+  .carousel-btn-prev {
+    left: 0.5rem;
+  }
+
+  .carousel-btn-next {
+    right: 0.5rem;
+  }
+
   .carousel-icon {
     font-size: 3rem;
-  }
-
-  .carousel-title {
-    font-size: 1.6rem;
-  }
-
-  .carousel-btn {
-    font-size: 1.5rem;
-    padding: 0.5rem;
   }
 
   .process-number {
